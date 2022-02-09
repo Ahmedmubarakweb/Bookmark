@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--Css Bootstrap 5-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <!--google font-->
+ <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <!--Custome Style-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/logo-bookmark.svg" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+     
+        <li class="nav-item">
+          <a class="nav-link" href="#Features">المميذات</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Download">تحميل</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#FAQ">الاسئلة الشائعة</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">اتصل بنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link login" href="#">دخول</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--header-->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-12 header-content">
+        <h1 class="primary-heading">
+          مدير بسيط للإشارات المرجعية
+        </h1>
+        <p>واجهة نظيفة وبسيطة لتنظيم مواقع الويب المفضلة لديك. افتح ملف
+          علامة تبويب المتصفح وشاهد مواقعك يتم تحميلها على الفور. قم بتجربته مجانا.</p>
+          <a href="" class="btn btn-primary"> احصل عليه من كروم</a>
+          <a href="" class="btn btn-secondary">   احصل عليه من فاير فوكس</a>
+      </div>
+      <div class="col-md-6 col-12 hero-img header-img">
+        <img class="img-fluid" src="images/illustration-hero.svg" alt="">
+      </div>
+    </div>
+  </div>
+</header>
+<!--Features-->
+<section id="Features"class="features">
+  <div class="container">
+    <h2 class="features-heading">المميذات</h2>
+    <p class="lead col-md-6 col-12"> هدفنا هو جعل الوصول إلى مواقع الويب المفضلة لديك سريعًا وسهلاً.
+      تتم مزامنة إشاراتك المرجعية بين أجهزتك حتى تتمكن من الوصول إليها أثناء التنقل.
+    </p>
+
+    <div class="row">
+      <div class="col-md-12 tab-container">
+        <button class=" btn-tab btn-tab--active" data-tab="1">
+          <span>اشارة مرجعية بسيطة</span>
+        </button>
+        <button class=" btn-tab" data-tab="2">
+          <span>البحث السريع</span>
+        </button>
+        <button class=" btn-tab" data-tab="3">
+          <span>مشاركة سهلة</span>
+        </button>
+      </div>
+        <div class="tab-content tab-content--1 tab-content--active">
+<!--content1-->
+<div class="row py-6 justify-content-center">
+  <div class="col-md-7 col-12">
+    <img class="img-fluid" src="images/illustration-features-tab-1.svg" alt="">
+  </div>
+  <div class="col-md-5 col-12">
+    <h1 class="primary-heading">
+    اشارة مرجعية بنقرة واحدة
+    </h1>
+    <p>
+      تنظيم الإشارات المرجعية الخاصة بك كيفما تشاء. واجهة السحب والإفلات البسيطة الخاصة بنا
+      يمنحك التحكم الكامل في كيفية إدارة مواقعك المفضلة.</p>
+      <a href="#" class="btn btn-primary"> مزيد من المعلومات</a>
+  </div>
+</div>
+<!--End content1-->
+        </div>
+        <div class="tab-content tab-content--2">
+          <!--content2-->
+          <div class="row py-6 justify-content-center">
+            <div class="col-md-7 col-12">
+              <img class="img-fluid" src="images/illustration-features-tab-2.svg" alt="">
+            </div>
+            <div class="col-md-5 col-12">
+              <h1 class="primary-heading">
+                البحث الذكي
+              </h1>
+              <p>
+                ستساعدك ميزة البحث القوية الخاصة بنا في العثور على المواقع المحفوظة في أي وقت من الأوقات على الإطلاق.
+                لا حاجة للبحث في جميع الإشارات المرجعية الخاصة بك.</p>
+                <a href="#" class="btn btn-primary"> مذيد من المعلومات</a>
+            </div>
+          </div>
+          <!--End content2-->
+          </div>
+          <div class="tab-content tab-content--3">
+            <!--content3-->
+            <div class="row py-6 justify-content-center">
+              <div class="col-md-7 col-12">
+                <img class="img-fluid" src="images/illustration-features-tab-3.svg" alt="">
+              </div>
+              <div class="col-md-5 col-12">
+                <h1 class="primary-heading">
+                  شارك الإشارات المرجعية الخاصة بك
+                </h1>
+                <p>
+                  شارك بسهولة إشاراتك المرجعية ومجموعاتك مع الآخرين. إنشاء ملف قابل للمشاركة
+                  الرابط الذي يمكنك إرساله بنقرة زر واحدة.
+                </p>
+                  <a href="#" class="btn btn-primary"> مذيد من المعلومات</a>
+              </div>
+            </div>
+            <!--End content3-->
+            </div>
+    </div>
+  </div>
+</section>
+<!--Downdload-->
+<section id="Download" class="download">
+  <div class="container">
+    <h2 class="download-heading text-center"> تنزيل الاضافة    </h2>
+    <p class="text-center col-md-5 col-12 mx-auto pt-4 pb-5">لدينا المزيد من المتصفحات في طور الإعداد. يرجى إعلامنا إذا كان   
+      لديك متصفح مفضل تريد منا تحديده  .
+    </p>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card chrome">
+          <div class="card-header">
+            <img src="images/logo-chrome.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h4 class="card-heading">أضف الى متصفح كروم</h4>
+            <h5 class="card-subheading">الحد الأدنى للإصدار 62</h5>
+           <hr>
+           <a href="" class="btn btn-primary"> أضف وثبت الاضافة </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card firefox">
+          <div class="card-header">
+            <img src="images/logo-firefox.svg" alt="Firefox-logo">
+          </div>
+          <div class="card-body">
+            <h4 class="card-heading">أضف الى متصفح فاير قوكس</h4>
+            <h5 class="card-subheading">الحد الادنى للاصدار 55</h5>
+           <hr>
+           <a href="" class="btn btn-primary"> أضف وثبت الاضافة </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card opera">
+          <div class="card-header">
+            <img src="images/logo-opera.svg" alt="Opera icon">
+          </div>
+          <div class="card-body">
+            <h4 class="card-heading">اضف الى متصفح اوبرا</h4>
+            <h5 class="card-subheading">الحد الادنى للاصدار 46</h5>
+           <hr>
+           <a href="" class="btn btn-primary"> أضف وثبت الاضافة </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--FaQ-->
+<section id="FAQ" class="faq text-center">
+  <div class="container">
+    <h2 class="faq-heading"> الاسئلة المكررة   </h2>
+    <p class="col-md-6 mx-auto py-4">فيما يلي بعض الأسئلة الشائعة الخاصة بنا. إذا كان لديك أي أسئلة أخرى تريد لها جواب
+       لا تتردد في مراسلتنا عبر البريد الإلكتروني.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-12">
+          <div class="accordion text-right" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  ما هي المرجعية؟
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-right">
+                  واجهة نظيفة وبسيطة لتنظيم مواقع الويب المفضلة لديك. افتح ملف
+                  علامة تبويب المتصفح وشاهد مواقعك يتم تحميلها على الفور. قم بتجربته مجانا
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  كيف يمكنني طلب اضافة متصفح جديد؟
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 تواصل معنا عبر البرديد الالكتروني
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  هل يوجد تطبيق جوال؟
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                 تحت الانشاء عندما يكتمل سنعلمك بزلك
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+</section>
+
+<!--Contact Us-->
+<section id="Contact" class="contact text-center">
+  <div class="container">
+   <span class="text-white">  انضم 35000+ بالفعل  </span>
+   <h3 class="text-white col-md-4 col-12 mx-auto py-4"> ابق على اطلاع دائم بما نقوم به </h3>
+   <form action="" class="form">
+     <div class="form-group row justify-content-center">
+      <div class="col-md-4 col-12">
+        <input class="form-control" type="email" id="email" name="email" placeholder="ادخل عنوان البريد الالكتروني">
+    </div>
+    <div class="col-md-3 col-12">
+      <a href="#" class="btn btn-danger form-control"> تواصل معنا </a>
+    </div>
+     </div>
+   </form>
+  </div>
+</section>
+ 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-12">
+          <div class="first">
+            <img class="footer-logo" src="images/logo-bookmark.svg" alt="logo">
+            <a href="#Features"  rel="noopener noreferrer">المميذات</a>
+            <a href="#Download"  rel="noopener noreferrer"> تحميل</a>
+            <a href="#FAQ"  rel="noopener noreferrer"> الاسئلة الشائعة</a>
+            <a href="#Contact" rel="noopener noreferrer">اتصل بنا</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="last ms-auto">
+            <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/icon-facebook.svg" alt="icon-facebook"></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"><img src="images/icon-twitter.svg" alt="icon-twitter"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
